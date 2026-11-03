@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "bottom": "soggtaddon:block/casings/battery/uxv_ultimate/top",
+    "side": "soggtaddon:block/casings/battery/uxv_ultimate/side",
+    "top": "soggtaddon:block/casings/battery/uxv_ultimate/top"
+  }
+}

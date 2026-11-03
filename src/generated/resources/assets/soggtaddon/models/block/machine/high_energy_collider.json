@@ -1,0 +1,95 @@
+{
+  "parent": "minecraft:block/block",
+  "dynamic_renders": [
+    {
+      "type": "soggtaddon:plasma_arc_furnace"
+    }
+  ],
+  "loader": "gtceu:machine",
+  "machine": "soggtaddon:high_energy_collider",
+  "texture_overrides": {
+    "all": "soggtaddon:block/casings/ultra_dense_collider_casing"
+  },
+  "variants": {
+    "is_formed=false,recipe_logic_status=idle": {
+      "model": {
+        "parent": "gtceu:block/machine/template/cube_all/sided",
+        "textures": {
+          "all": "soggtaddon:block/casings/ultra_dense_collider_casing",
+          "overlay_front": "soggtaddon:block/multiblock/high_energy_collider/overlay_front",
+          "overlay_front_emissive": "soggtaddon:block/multiblock/high_energy_collider/overlay_front_emissive"
+        }
+      }
+    },
+    "is_formed=false,recipe_logic_status=suspend": {
+      "model": {
+        "parent": "gtceu:block/machine/template/cube_all/sided",
+        "textures": {
+          "all": "soggtaddon:block/casings/ultra_dense_collider_casing",
+          "overlay_front": "soggtaddon:block/multiblock/high_energy_collider/overlay_front_paused",
+          "overlay_front_emissive": "soggtaddon:block/multiblock/high_energy_collider/overlay_front_paused_emissive"
+        }
+      }
+    },
+    "is_formed=false,recipe_logic_status=waiting": {
+      "model": {
+        "parent": "gtceu:block/machine/template/cube_all/sided",
+        "textures": {
+          "all": "soggtaddon:block/casings/ultra_dense_collider_casing",
+          "overlay_front": "soggtaddon:block/multiblock/high_energy_collider/overlay_front_active",
+          "overlay_front_emissive": "soggtaddon:block/multiblock/high_energy_collider/overlay_front_active_emissive"
+        }
+      }
+    },
+    "is_formed=false,recipe_logic_status=working": {
+      "model": {
+        "parent": "gtceu:block/machine/template/cube_all/sided",
+        "textures": {
+          "all": "soggtaddon:block/casings/ultra_dense_collider_casing",
+          "overlay_front": "soggtaddon:block/multiblock/high_energy_collider/overlay_front_active",
+          "overlay_front_emissive": "soggtaddon:block/multiblock/high_energy_collider/overlay_front_active_emissive"
+        }
+      }
+    },
+    "is_formed=true,recipe_logic_status=idle": {
+      "model": {
+        "parent": "gtceu:block/machine/template/cube_all/sided",
+        "textures": {
+          "all": "soggtaddon:block/casings/ultra_dense_collider_casing",
+          "overlay_front": "soggtaddon:block/multiblock/high_energy_collider/overlay_front",
+          "overlay_front_emissive": "soggtaddon:block/multiblock/high_energy_collider/overlay_front_emissive"
+        }
+      }
+    },
+    "is_formed=true,recipe_logic_status=suspend": {
+      "model": {
+        "parent": "gtceu:block/machine/template/cube_all/sided",
+        "textures": {
+          "all": "soggtaddon:block/casings/ultra_dense_collider_casing",
+          "overlay_front": "soggtaddon:block/multiblock/high_energy_collider/overlay_front_paused",
+          "overlay_front_emissive": "soggtaddon:block/multiblock/high_energy_collider/overlay_front_paused_emissive"
+        }
+      }
+    },
+    "is_formed=true,recipe_logic_status=waiting": {
+      "model": {
+        "parent": "gtceu:block/machine/template/cube_all/sided",
+        "textures": {
+          "all": "soggtaddon:block/casings/ultra_dense_collider_casing",
+          "overlay_front": "soggtaddon:block/multiblock/high_energy_collider/overlay_front_active",
+          "overlay_front_emissive": "soggtaddon:block/multiblock/high_energy_collider/overlay_front_active_emissive"
+        }
+      }
+    },
+    "is_formed=true,recipe_logic_status=working": {
+      "model": {
+        "parent": "gtceu:block/machine/template/cube_all/sided",
+        "textures": {
+          "all": "soggtaddon:block/casings/ultra_dense_collider_casing",
+          "overlay_front": "soggtaddon:block/multiblock/high_energy_collider/overlay_front_active",
+          "overlay_front_emissive": "soggtaddon:block/multiblock/high_energy_collider/overlay_front_active_emissive"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "collider": {
+    "sounds": [
+      {
+        "type": "file",
+        "name": "soggtaddon:collider"
+      }
+    ],
+    "subtitle": "soggtaddon.subtitle.collider"
+  }
+}

@@ -1,0 +1,42 @@
+# gradle
+
+.gradle/
+build/
+out/
+classes/
+
+# eclipse
+
+*.launch
+
+# idea
+
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# vscode
+
+.settings/
+.vscode/
+bin/
+.classpath
+.project
+
+# macos
+
+*.DS_Store
+
+run/
+run-data/
+/src/generated/resources/.cache/*
+
+# Local build diagnostics and archived source snapshot
+build_log*.txt
+build_pid.txt
+build_pr*.exit
+build_pr*.stdout.log
+spotless_pr*.exit
+spotless_pr*.stdout.log
+*.zip
